@@ -44,6 +44,7 @@
 ### 서버 아키텍쳐
 <img width="993" alt="스크린샷 2024-09-11 23 06 07" src="https://github.com/user-attachments/assets/ed1a8498-2a35-4240-a50d-924093bd82c0">
 
+</br>
 
 </br>
 
