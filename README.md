@@ -79,7 +79,7 @@ https://youtu.be/msiGwnS4l-Q?si=rC5baI9Mo6tcP4zG
   #### 2️⃣ **페이지네이션 성능 개선**
   - 기존 offset 활용 방식으로 진행시 데이터가 많아질수록 응답속도가 점점 느려지는 것을 발견
   - no-offset 방식 페이지네이션을 적용해보려 했으나, 정렬 조건 때문에 적합하지 않다고 판단
-  - 커서 기반의 페이지네이션을 적용해 10만건의 데이터 기준 약 <ins>98.68%</ins> 의 성능 개선 (**151ms → 2ms**)
+  - 커서 기반의 페이지네이션을 적용해 10만건의 데이터 기준 약 <ins>98.68%</ins> 의 성능 개선
   #### 3️⃣ **파일 업로드시 100MB보다 크기가 크면 413 에러가 발생**
   - Nginx.conf에서 client_max_body_size를 높게 설정
   - application.yml 에서 multipart max_file_size와 max_request_size를 수정해 해결
